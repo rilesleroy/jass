@@ -4,7 +4,7 @@
 
 JASS is a simple stack based language designed for very basic conatenation based automation.
 JASS was built as a debug tool and to help with automating the testing of games but its also been usful in building other GUI applications.
-JASS is used to allow for the maniulation of runtime state in an [jass](https://odin-lang.org/) applications using commands that the host program provides.
+JASS is used to allow for the maniulation of runtime state in an [odin](https://odin-lang.org/) applications using commands that the host program provides.
 
 
 
@@ -17,11 +17,13 @@ def new_command sub_command sub_command sub_command
 
 To run a new command you can simple invoke it
 ```
-rile.run_line("line_string")
+jass.run_line("line_string")
 ```
 
 ## The Stack
-The stack acts sort of like a scratch pad of commands a
+The stack acts sort of like a scratch pad of commands and data values
+
+## Fon
 
 ## Inspirations
 - FORTH and other stack based languages
