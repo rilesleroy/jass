@@ -1,8 +1,10 @@
+![jass logo](images/jass_logo_full.png)
+
 # JASS - Just, Alright Stack System
 
 JASS is a simple stack based language designed for very basic conatenation based automation.
-JASS was as a debug tool and to help with automating the testing of games but its also been usful in building other GUI applications.
-JASS used to allow for the maniulation of runtime state in an odin applications using commands that the host program provides.
+JASS was built as a debug tool and to help with automating the testing of games but its also been usful in building other GUI applications.
+JASS is used to allow for the maniulation of runtime state in an [jass](https://odin-lang.org/) applications using commands that the host program provides.
 
 
 
