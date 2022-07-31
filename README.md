@@ -1,4 +1,4 @@
-![jass logo](images/jass_logo_full.png)
+![jass logo](images/jass_full_logo.png)
 
 # JASS - Just, Alright Stack System
 
