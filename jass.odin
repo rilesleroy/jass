@@ -209,11 +209,12 @@ run_line :: proc(line: string)
 					// param : Parameter = token
 					// append(&stack, param)
 					// continue
-					// [1 : len(token)-1]
-
-					param : Parameter = token
-					append(&stack, param)
-
+					if token[0] == '\"' && token[len(token)-1] == '\"'
+					{
+						param : Parameter = token[1 : len(token)-1]
+						append(&stack, param)
+						continue
+					}
 				}
 
 				
